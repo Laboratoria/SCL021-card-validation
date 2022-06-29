@@ -1,0 +1,35 @@
+.tarjeta {
+    width: 300px;
+    padding: 20px; 
+    border: 8px black;
+    border-radius: 15px;
+    margin: auto;
+    background-color: beige;
+    text-align: center;
+    box-shadow: 1px 1px 10px 1px lightgray;
+
+}
+
+body {
+    font-family: 'Bitter', serif;
+    text-align: center;
+    
+}
+#btn {
+    text-align: center;
+    
+    background-color: white;
+    font-family: 'Bitter', serif;
+    border-radius: 5px;
+    border: 0 whitesmoke;
+    width: 100px;
+    height: 40px;
+    padding: 10 px;
+    font-size: 15px;
+
+
+}
+
+#btn:hover {
+    background-color: lightgray;
+}
