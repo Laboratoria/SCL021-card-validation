@@ -26,10 +26,18 @@ body {
     height: 40px;
     padding: 10 px;
     font-size: 15px;
-
-
 }
 
 #btn:hover {
     background-color: lightgray;
+}
+
+#validPopUp {
+    display:none;
+    background-color: whitesmoke;
+    border-radius: 5px green;
+    border: 0;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    
 }
