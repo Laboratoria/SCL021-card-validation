@@ -1,18 +1,13 @@
-const userInput = document.getElementById("cardNum");
-
-
 const validator = {
-
-  isValid:(userInput) => {
-
-    // convertir data en array tipo number e invertir
-    let numData = userInput.split("");
-    numData.map(Number);
-    numData.reverse();
-    
+  isValid(creditCardNumber) {
+    let ccNumbArray = creditCardNumber.toString().split("").map(Number);
+    ccNumbArray.reverse();
+    //console.log(ccNumbArray);
+  
   }
- 
-};
+  };
+
+  
 
 export default validator;
 
