@@ -2,18 +2,53 @@ const validator = {
   isValid(creditCardNumber) {
     let ccNumbArray = creditCardNumber.toString().split("").map(Number);
     ccNumbArray.reverse();
-    //console.log(ccNumbArray);
-   
+    for(let i = 0; i < ccNumbArray.length; i++) {
+      if(i % 2 === 0) {
+        if(ccNumbArray[i] * 2 >= 10){
+          let pairN = ccNumbArray[i] * 2;
+          pairN.toString().split("").map(Number);
+          
+        
+      }
+      
+    }
+    
+    
+    } 
   }
-  };
-console.log(ccNumbArray)
+};
+
+
+validator.isValid(285324);
 
 
 
-validator.isValid(123456);
 
 
-const recognizeMasterCard = (input) =>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*const recognizeMasterCard = (input) =>
   (input.length === 16 && input.startsWith('51')) ||
   input.startsWith('52') ||
   input.startsWith('53') ||
@@ -30,7 +65,7 @@ const recognizeVisa = (input) =>
 const validateCardNumber = (input) => {
   let sum = 0;
   for (let i = input.length - 1; i >= 0; i--) {
-    if (i % 2 === 0) { /*residuo se divide entre 2 si da 0 es par sino es inpar*/ 
+    if (i % 2 === 0) { /*residuo se divide entre 2 si da 0 es par sino es inpar*/ /*
       const multiplyInput = input[i] * 2;
       if (multiplyInput > 9) {
         Array.from(String(multiplyInput), Number).forEach((e) => {
@@ -73,4 +108,6 @@ function maskify(input) {
   return input.slice(0,-4).replace(/./g, "#") + input.slice(-4);
 }
 
-document.getElementById("mask").innerHTML = maskify(cc);
+document.getElementById("mask").innerHTML = maskify(cc); 
+
+*/
