@@ -27,20 +27,52 @@ const validator = {
         total = false;
       //console.log(total)
       }
-    }
+    },
+
+    maskify(creditCardNumber) {
+      return creditCardNumber.slice(0,-4).replace(/./g,"#").slice(-4);
+       }
+    
   };
   
-  validator.isValid()
+
+  
   export default validator
+  /*
 
   var cc = "ABCD 1234 *!X£ 9999";
+  function maskify(input) {
+    return input.slice(0,-4).replace(/./g, "*") + input.slice(-4);
+  }
+  
+  document.getElementById("mask").innerHTML = maskify(cc); 
+  
+  function ultimosDigitos() {
+    var uDigitos = document.getElementById("digitos").value;
+    document.getElementById("digitos").innerHTML = "Tus ultimos 4 digitos son: " + document.getElementById("mask").innerHTML = maskify;
+  }
+  
+  console.log('ultimosDigitos')
 
 
-validator.isValid(285324);
+//PROBANDO
 
+  function escribir2() {
+    let valor = document.getElementById('entrada').value;
 
+    let numeroTarjeta = ' '+valor.slice(0,-4).replace(/./g,"#")+valor.slice(-4);
+    // maskify
+    document.getElementById('cont3').innerHTML = numeroTarjeta;
+    //4 últimos digitos de la tarjeta
+    document.getElementById('cont4').innerHTML=''+valor.slice(-4)+' son los últimos 4 digitos de tu tarjeta.'
 
-
+    //Tarjeta de credito es valida || invalida
+    if (valid_credit_card(valor) === true) {
+       return document.getElementById('cont5').innerHTML = valor + 'La tarjeta es valida.'
+    } else { 
+        return document.getElementById('cont5').innerHTML = valor + 'Tu tarjeta es ivalida.' 
+    }
+    */
 
 
 
@@ -128,6 +160,7 @@ function maskify(input) {
 document.getElementById("mask").innerHTML = maskify(cc); 
 
 */
+/*
 
 function maskify(input) {
   return input.slice(0,-4).replace(/./g, "*") + input.slice(-4);
@@ -160,4 +193,4 @@ function escribir2() {
     }
     
 } 
-
+ */
