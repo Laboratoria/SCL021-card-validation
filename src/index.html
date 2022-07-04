@@ -2,15 +2,25 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>Le Jacque Giftcard</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@600&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
   </head>
   <body>
-    <header>Valida tu tarjeta aqui</header>
-    <main></main>
+    <header>
+
+      <div class=" logo">
+      <a href="index.html"><img src="assets/img/le-jacquem.png" alt="lejacquem" width="100px" height="auto"></a>
+      </div>
+      <div id="bienvenidx">
+        <h3>Bienvenidx a Le Jacquem</h3>
+      </div>
+      
+    </header>
+    <main>
     <br>
     <div class="tarjeta">
       <label>Número de Tarjeta</label>
@@ -18,13 +28,34 @@
     <form>
       <input id="cardNum" type="text" placeholder="1111 2222 3333 4444"></input> 
     </form>
+      
+<p id="mask"></p>
+<p id="digitos"></p>
       <br>
       <button id="btn">Validar</button>
     </div>
-   
+      </main>
   </body>    
-    <footer>Emily Negrette, Jacqueline Montecinos | Laboratoria SCL021</footer>
-    <script src="index.js" type="module"></script>
+    <footer>
+       <div>
+  <p1>Visita nuestras redes sociales y conoce nuestras promociones diarias. 
+    <br>Suscribete a nuestro Newsletter.<br><br></p1>
+       </div>
+    <div class= "icons">
+    <p>Facebook</p> 
+      <i class="zmdi zmdi-facebook" ></i>
+    <p>Instagram</p> 
+      <i class="zmdi zmdi-instagram"></i>
+      <p>Twitter</p> 
+      <i class="zmdi zmdi-twitter"></i>
+
+      </div>
+  
+      © Emily Negrette, Jacqueline Montecinos | Laboratoria SCL021 
+      
+    </footer>
+    <script src="script.js" type="module"></script>
+    <script src="maskify.js" type="module"></script>
     <script src="validator.js" type="module"></script>
   </body>
 </html>
