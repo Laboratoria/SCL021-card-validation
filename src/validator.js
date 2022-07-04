@@ -31,7 +31,9 @@ const validator = {
     },
 
     maskify(creditCardNumber) {
-      return creditCardNumber.slice(0,-4).replace(/./g,"#").slice(-4);
+      return creditCardNumber.slice(0,-4).replace(/./g,"#") + creditCardNumber.slice(-4);
+      
+
        }
     
   };
