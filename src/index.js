@@ -1,15 +1,19 @@
 import validator from './validator.js';
 
 const validateBtn = document.getElementById("btn");
-//const mask = validator.maskify(creditCardNumber);
 
 function validateCard() {
     const creditCardNumber = document.getElementById("cardNumb").value;
+    
     if(validator.isValid(creditCardNumber) === true) {
-        alert ('Tu tarjeta es valida.')
+        const mask = validator.maskify(creditCardNumber);
+        alert ('Tu tarjeta ' + mask + ' es valida.')
         
      } else {
-       alert("invalida")
+    
+       creditCardNumber = maskify
+
+
     }
 
 }
