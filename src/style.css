@@ -13,6 +13,7 @@ html{overflow: hidden;width:100%}
     margin: auto;
     background-color: #fffaef;;
     text-align: center;
+
     margin-top:100px;
     margin-bottom:100px;
 
@@ -40,6 +41,17 @@ body {
 
 #btn:hover {
     background-color: lightgray;
+}
+
+
+#validPopUp {
+    display:none;
+    background-color: whitesmoke;
+    border-radius: 5px green;
+    border: 0;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    
 }
 
 
@@ -75,4 +87,11 @@ footer {
     position:fixed;
     bottom:0;
     width:100%;
-} 
+}
+
+nav {
+  background: #3b170b;
+  text-align: right;
+  
+  
+}
