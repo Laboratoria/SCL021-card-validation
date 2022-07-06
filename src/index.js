@@ -1,6 +1,7 @@
 import validator from './validator.js';
 
 const validateBtn = document.getElementById("btn");
+const tuPago = document.getElementById("pago");
 
 function reconocerTarjeta() {
     const card = document.getElementById("cardNumb").value;
@@ -17,7 +18,7 @@ function reconocerTarjeta() {
   } else {
       return 'tarjeta '
   }
-}
+};
     
 
 
@@ -37,7 +38,12 @@ function validateCard() {
 
     }
 
-}
+};
+validateBtn.addEventListener("click", validateCard);
+tuPago.addEventListener("click", pago);
 
-export default validator;
-validateBtn.addEventListener("click", validateCard)
+function pago() {
+  alert("Gracias por tu compra!");
+};
+
+

@@ -5,7 +5,10 @@
 
 html{overflow: hidden;width:100%}
 
+
+
 .tarjeta {
+  
     width: 300px;
     padding: 20px; 
     border: 8px black;
@@ -13,9 +16,9 @@ html{overflow: hidden;width:100%}
     margin: auto;
     background-color: #fffaef;;
     text-align: center;
-
-    margin-top:100px;
-    margin-bottom:100px;
+    margin-top:0px;
+    margin-bottom:150px;
+  
 
 }
 
@@ -36,22 +39,12 @@ body {
     height: 40px;
     padding: 10 px;
     font-size: 15px;
+    transition: 0.5s;
 }
 
 
 #btn:hover {
     background-color: lightgray;
-}
-
-
-#validPopUp {
-    display:none;
-    background-color: whitesmoke;
-    border-radius: 5px green;
-    border: 0;
-    text-align: center;
-    font-family: 'Bitter', serif;
-    
 }
 
 
@@ -76,7 +69,7 @@ body {
     background-color: #fffaef;
     width: 100%;
     max-height: 1800px;
-    padding: 20px;
+    padding: 10px;
 }
 
 footer {
@@ -89,9 +82,93 @@ footer {
     width:100%;
 }
 
-nav {
+.nav {
   background: #3b170b;
   text-align: right;
+  padding-bottom: 12px;
+ 
+}
+
+.nav a {
+  color: #fffaef;
+  margin: 0 10px;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.nav a:hover{
+  background-color:gray;
+}
+
+/*.pagar{
+background-color: #fffaef;
+width: 
   
+}*/
+
+.pagar a:hover{
+  background-color:gray;
+}
+
+#pago{
+background-color: #3b170b;
+color: #fffaef;
+font-family: 'Bitter', serif;
+float: right;
+width: 100px;
+height: 40px;
+padding: 10px;
+border: 0px;
+border-radius: 5px;
   
+}
+
+#cart {
+  width: 300px;
+  padding: 20px; 
+  float: left;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  border: 8px black;
+  border-radius: 15px;
+  background-color: #fffaef;;
+  text-align: center;
+
+}
+
+
+figcaption {
+    background: #3b170b;
+    color: #fffaef;
+    font-size: 15px;
+    width: 250px;
+    justify-content: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#carro{
+ background: #3b170b;
+    color: #fffaef;
+    font-size: 15px;
+    width: 250px;
+    justify-content: center;
+    margin-left: 25px;
+    margin-right: 25px;
+  
+}
+
+
+#chocolate {
+
+    height: 450px;
+    border: 8px black;
+    border-radius: 15px;
+    float: right;
+    position: absolute;
+    top: 200px;
+    right: 100px;
 }
