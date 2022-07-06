@@ -1,6 +1,6 @@
 *{
-    margin:0;
-    padding:0;
+  margin:0;
+  padding:0;
 }
 
 html{overflow: hidden;width:100%}
@@ -8,167 +8,172 @@ html{overflow: hidden;width:100%}
 
 
 .tarjeta {
-  
-    width: 300px;
-    padding: 20px; 
-    border: 8px black;
-    border-radius: 15px;
-    margin: auto;
-    background-color: #fffaef;;
-    text-align: center;
-    margin-top:0px;
-    margin-bottom:150px;
-  
+
+  width: 300px;
+  padding: 20px; 
+  border: 8px black;
+  border-radius: 15px;
+  margin: auto;
+  background-color: #fffaef;;
+  text-align: center;
+  margin-top:0px;
+  margin-bottom:30px;
+
 
 }
 
 body {
-    font-family: 'Bitter', serif;
-    text-align: center;
-    background-image: url(assets/img/background.jpg);
-    
+  font-family: 'Bitter', serif;
+  text-align: center;
+  background-image: url(assets/img/background.jpg);
+  
 }
 #btn {
-    text-align: center;
-    background: #3b170b;
-    color: #fffaef;
-    font-family: 'Bitter', serif;
-    border-radius: 5px;
-    border: 0 whitesmoke;
-    width: 100px;
-    height: 40px;
-    padding: 10 px;
-    font-size: 15px;
-    transition: 0.5s;
+  text-align: center;
+  background: #3b170b;
+  color: #fffaef;
+  font-family: 'Bitter', serif;
+  border-radius: 5px;
+  border: 0 whitesmoke;
+  width: 100px;
+  height: 40px;
+  padding: 10 px;
+  font-size: 15px;
+  transition: 0.5s;
 }
 
 
 #btn:hover {
-    background-color: lightgray;
+  background-color: lightgray;
 }
 
 
 .icons {
-  display: flex;
-  flex-direction: row;
-  text-align: row;
-  gap: 20px;
-  text-align: center;
-  justify-content: center;
+display: flex;
+flex-direction: row;
+text-align: row;
+gap: 20px;
+text-align: center;
+justify-content: center;
 }
 
 
 .logo{
-    background-color: #fffaef;
-    width: 100%;
-    background: #3b170b;
+  background-color: #fffaef;
+  width: 100%;
+  background: #3b170b;
 }
 
 #bienvenidx {
-    text-align: center;
-    background-color: #fffaef;
-    width: 100%;
-    max-height: 1800px;
-    padding: 10px;
+  text-align: center;
+  background-color: #fffaef;
+  width: 100%;
+  max-height: 1800px;
+  padding: 10px;
 }
 
 footer {
-    background: #3b170b;
-    color: #fffaef;
-    text-align: center;
-    padding: 1em;
-    position:fixed;
-    bottom:0;
-    width:100%;
+  background: #3b170b;
+  color: #fffaef;
+  text-align: center;
+  padding: 1em;
+  position:fixed;
+  bottom:0;
+  width:100%;
 }
 
 .nav {
-  background: #3b170b;
-  text-align: right;
-  padding-bottom: 12px;
- 
+background: #3b170b;
+text-align: right;
+padding-bottom: 12px;
+
 }
 
 .nav a {
-  color: #fffaef;
-  margin: 0 10px;
-  text-decoration: none;
-  padding: 8px 16px;
-  border-radius: 10px;
-  transition: 0.5s;
+color: #fffaef;
+margin: 0 10px;
+text-decoration: none;
+padding: 8px 16px;
+border-radius: 10px;
+transition: 0.5s;
 }
 
 .nav a:hover{
-  background-color:gray;
+background-color:gray;
 }
 
 /*.pagar{
 background-color: #fffaef;
 width: 
-  
+
 }*/
 
 .pagar a:hover{
-  background-color:gray;
+background-color:gray;
 }
 
 #pago{
 background-color: #3b170b;
 color: #fffaef;
 font-family: 'Bitter', serif;
-float: right;
-width: 100px;
-height: 40px;
+justify-content: center;
+text-align: center;
+width: 200px;
+height: 60px;
 padding: 10px;
 border: 0px;
 border-radius: 5px;
-  
+transition: 0.5s;
+
+}
+
+#pago:hover {
+  background-color: lightgray;
 }
 
 #cart {
-  width: 300px;
-  padding: 20px; 
-  float: left;
-  position: absolute;
-  top: 200px;
-  left: 100px;
-  border: 8px black;
-  border-radius: 15px;
-  background-color: #fffaef;;
-  text-align: center;
+width: 350px;
+padding: 20px; 
+float: left;
+position: absolute;
+top: 200px;
+left: 100px;
+border: 8px black;
+border-radius: 15px;
+background-color: #fffaef;;
+text-align: center;
 
 }
 
 
 figcaption {
-    background: #3b170b;
-    color: #fffaef;
-    font-size: 15px;
-    width: 250px;
-    justify-content: center;
-    margin-left: 25px;
-    margin-right: 25px;
+  background: #3b170b;
+  color: #fffaef;
+  font-size: 15px;
+  width: 250px;
+  justify-content: center;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 #carro{
- background: #3b170b;
-    color: #fffaef;
-    font-size: 15px;
-    width: 250px;
-    justify-content: center;
-    margin-left: 25px;
-    margin-right: 25px;
-  
+background: #3b170b;
+  color: #fffaef;
+  font-size: 15px;
+  width: 250px;
+  justify-content: center;
+  margin-left: 25px;
+  margin-right: 25px;
+
 }
 
 
 #chocolate {
 
-    height: 450px;
-    border: 8px black;
-    border-radius: 15px;
-    float: right;
-    position: absolute;
-    top: 200px;
-    right: 100px;
+  height: 450px;
+  border: 8px black;
+  border-radius: 15px;
+  position: absolute;
+  top: 200px;
+  right: 100px;
 }

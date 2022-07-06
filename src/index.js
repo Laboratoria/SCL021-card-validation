@@ -18,14 +18,17 @@ function reconocerTarjeta() {
   } else {
       return 'tarjeta '
   }
-};
+}
     
 
 
 function validateCard() {
     const creditCardNumber = document.getElementById("cardNumb").value;
     
-    if(validator.isValid(creditCardNumber) === true) {
+    if(creditCardNumber.length <= 0) {
+      alert('rellena todos los campos')       
+      
+    } else if(validator.isValid(creditCardNumber) === true) {
         const recCard = reconocerTarjeta();
         const mask = validator.maskify(creditCardNumber);
         alert ('Tu' + ' ' + recCard + mask + ' es valida.')
@@ -38,12 +41,12 @@ function validateCard() {
 
     }
 
-};
+}
 validateBtn.addEventListener("click", validateCard);
 tuPago.addEventListener("click", pago);
 
 function pago() {
   alert("Gracias por tu compra!");
-};
+}
 
 
