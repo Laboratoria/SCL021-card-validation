@@ -2,8 +2,8 @@ const validator = {
   isValid(creditCardNumber) {
     //console.log(creditCardNumber)
     let total = 0;
-    /* Dividir el user input en números individuales, transformar esto en 
-    un array y luego cambiar el tipo a número */
+    /* Dividir el user input en números individuales, 
+    transformar esto en un array y luego cambiar el tipo a número */
     let ccNumbArray = creditCardNumber.split("").map(Number);
 
     //invertir el orden del array

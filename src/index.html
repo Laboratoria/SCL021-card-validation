@@ -2,7 +2,7 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
-    <title>Le JacquEm Chocolat - Checkout</title>
+    <title>Caja mix bombones y thins 420 g - Carrito</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,11 +16,12 @@
       <a href="index.html"><img src="assets/img/le-jacquem.png" alt="lejacquem" width="100px" height="auto"></a>
       </div>
       <div>
-        <nav>
+        <nav class="nav">
           <a href="">Inicio</a> 
           <a href="">Sucursales</a> 
-          <a href="">Chocolates</a> 
+          <a href="">Productos</a> 
           <a href="">Contáctanos</a>
+          <a><i class="zmdi zmdi-shopping-cart"></i></a>
 </nav>
       </div>
       <div id="bienvenidx">
@@ -30,15 +31,18 @@
     </header>
     <main>
     <br>
-    <div class="contenedor"
+<div class="contenedor" class="content">
       <form action="">
     <div class="tarjeta">
+       <a href="index.html"><img src="assets/img/credit_card.png" alt="lejacquem" width="250px" height="auto"></a>
       <span>Número de Tarjeta</span>
-    <br />
+    <br/>
       <input id="cardNumb" type="text" placeholder="1111 2222 3333 4444"> 
+      
      <div class="inputBox">
     <span>Nombre del Titular</span>
       <input type="text" class="nombreDelTitular">
+     </div>
       <div> <br />
     <div class="flexbox">
     <div class="inputBox"
@@ -59,6 +63,7 @@
          <option value="01">12</option>
          </select>
     </div>
+      </div>
     <div class="inputBox">
     <span>Año de expiracion</span>
      <select name="" id="" class="año"> 
@@ -82,8 +87,37 @@
 <p id="mask"></p>
       <br>
       <button id="btn" >Validar</button>
+
+     <div>
+      <section id="cart">
+      <span id="carro">Carrito de compras</span>
+        <a id="choco"><img src="assets/img/chocolates.png" width="250px" >
+        <figcaption>Caja mix bombones y thins 420 g</figcaption></a>
+      <h3>- x1 Caja mix bombones y thins 420g <br />
+            $22.600
+      </h3>
+        <br />
+        <p>Te invitamos a validar tu tarjeta antes de pagar!</p>
+    </section>
+      </div>
+</div>
     </div>
+
+      
+        
+    </div><!-- contenedor END -->
+    </div>
+     
+      <div class="pagar">
+      <button id="pago">Finaliza tu compra</button>
+      </div>
+
+      <video id="chocolate" autoplay muted loop>
+        <source src="assets/img/chocolate.mp4" type="video/mp4">
+      </video>
+      
       </main>   
+    
     <footer>
        <div>
   <p1>Visita nuestras redes sociales y conoce nuestras promociones diarias. 
