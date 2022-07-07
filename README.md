@@ -21,18 +21,18 @@ El objetivo principal de Le JacquEm es llevar la experiencia de comer chocolate 
 Esta aplicación web está destinada a validar las tarjetas de crédito antes de finalizar la compra ofreciendo un método de compra mucho más seguro para el usuario y que asegura la protección de sus datos personales. 
 
 #### 3. Primer prototipo :pleading_face:
-![web app](assets/readme/prototipo1.png)
-![alerts](assets/readme/prototipo2.png)
+![web app](src/assets/readme/prototipo1.png)
+![alerts](src/assets/readme/prototipo2.png)
 
 #### 4. Prototipo final :  :100: :woman_technologist:
 ![](assets/readme/prototipo_final.png)
 
 ## :star2: :star: Card Validator - Versión Final :star: :star2:
-![página principal](assets/readme/final1.png)
-![tarjeta válida](assets/readme/final2.png)
-![tarjeta inválida](assets/readme/final3.png)
-![sin datos](assets/readme/final4.png)
-![compra realizada](assets/readme/final5.png)
+![página principal](src/assets/readme/final1.png)
+![tarjeta válida](src/assets/readme/final2.png)
+![tarjeta inválida](src/assets/readme/final3.png)
+![sin datos](src/assets/readme/final4.png)
+![compra realizada](src/assets/readme/final5.png)
 
 ## Validator.js :desktop_computer:
 ```javascript
