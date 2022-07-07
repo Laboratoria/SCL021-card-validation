@@ -25,7 +25,7 @@ Esta aplicación web está destinada a validar las tarjetas de crédito antes de
 ![alerts](src/assets/readme/prototipo2.png)
 
 #### 4. Prototipo final :  :100: :woman_technologist:
-![](assets/readme/prototipo_final.png)
+![](src/assets/readme/prototipo_final.png)
 
 ## :star2: :star: Card Validator - Versión Final :star: :star2:
 ![página principal](src/assets/readme/final1.png)
