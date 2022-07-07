@@ -26,7 +26,7 @@ function validateCard() {
     const creditCardNumber = document.getElementById("cardNumb").value;
     
     if(creditCardNumber.length <= 0) {
-      alert('rellena todos los campos')       
+      alert('Por favor ingrese el número de tarjeta.')       
       
     } else if(validator.isValid(creditCardNumber) === true) {
         const recCard = reconocerTarjeta();
